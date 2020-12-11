@@ -1,0 +1,338 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url('./fonts/CircularStd-Bold.woff2') format('woff2'),
+        url('./fonts/CircularStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+*/
+
+ * {
+ 	margin: 0 auto;
+	padding: 0 auto;
+	list-style-type: none;
+	box-sizing: border-box;
+ }
+
+body {
+	font-family: 'Circular Std'; 
+	justify-content: center;
+	align-items: center;
+}
+
+.umumiy_chegara {
+	width: 1350px;
+	height: 2000px;
+	margin: 0 auto;
+	padding: 0 auto;
+	border: 3px solid blue;
+	background-image: url(../img/1-fon.jpg);
+	background-repeat: no-repeat;
+}
+
+/*menu*/
+
+.menu{
+	display: flex;
+	padding: 20px;
+	padding-top: 25px;
+	justify-content: space-between;
+	font-family: sans-serif;
+	position: relative;
+
+}
+
+.logotip{
+	margin-left: 10px;
+	
+	font-size: 20px;
+}
+
+.menu_link{
+	margin-left: 700px;
+}
+
+.menu_ul{
+	display: flex;
+	margin-right: -5px;
+
+}
+
+.menu_li{
+	margin-left: 10px;
+}
+
+.menu_a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	margin-right: 20px;
+	padding-bottom: 15px;
+}
+
+.menu_a:hover {
+	color: blue;
+}
+
+.rasm_uchburchakcha {
+	width: 10px;
+	height: 7px;
+	margin-left: 6px;
+}
+
+.ichki_menu{
+	display: none;
+	width: 213px;
+	height: 180px;	
+	border: 1px solid #CBCBCB;
+	border-top: 4px solid blue;
+	position: absolute;
+	margin-top: 12px;
+	border-radius: 0% 0% 6% 6% / 0% 0% 6% 6% ;
+	background-color: white;
+}
+
+.ichki_menu_li{
+	margin-top: 20px;
+	margin-left: -20px;
+	position: relative;
+}
+
+.ichki_menu_li2{
+	margin-top: 20px;
+	margin-left: -45px;
+	padding-left: 26px;
+	position: relative;
+}
+
+.rasm_uchburchak_ichki{
+	width: 8px;
+	height: 10px;
+	margin-left: 50px;
+}
+
+.ichki_menu_a{
+	border-radius: 1px solid black;
+	text-decoration: none;
+	color: black;
+}
+
+
+.ichki_menu_a:hover {
+	color: blue;
+}
+
+.menu ul li:hover .ichki_menu {
+	display: block;
+}
+
+.ichki_menu2{
+	display: none;
+	width: 213px;
+	height: 180px;	
+	border: 1px solid #CBCBCB;
+	border-top: 4px solid red;
+	position: absolute;
+	margin-top: -22px;
+	margin-left: -234px;
+	border-radius: 0% 0% 6% 6% / 0% 0% 6% 6% ;
+	background-color: white;
+}
+
+.ichki_menu ul .ichki_menu_li2:hover .ichki_menu2 {
+	display: block;
+}
+
+.button1{
+	width: 130px;
+	height: 38px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: 1px solid #ee5252;
+	background-color: #ee2f2f;
+	color: white;
+	margin-top: -10px;
+	margin-left: 10px;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.button1:hover{
+	background-color: #d34444;
+}
+
+/*MENU*/
+.qism_1{
+	display: flex;
+}
+/*A-progect*/
+.a_prgect{
+	width: 500px;
+	height: 500px;
+/*	background-color: darkgray;*/
+	margin-left:140px;
+	margin-top: 150px; 
+	padding: 0;
+}
+
+.a_1_text{
+	font-size: 65px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.a_2_text{
+		font-size: 18px;
+	font-family: sans-serif;
+	margin-bottom: 15px;
+/*	font-weight: lighter;*/
+	color: #4d4d4d; 
+}
+
+.button_2{
+	width: 175px;
+	height: 55px;
+	padding: 8px 22px;
+	border-radius: 5px;
+	border: 1px solid #ee5252;
+	background-color: #e13737;
+	color: white;
+	margin-top: 20px;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.button_2:hover{
+	background-color: #d34444;
+}
+
+.center_a_1{
+	text-decoration: none;
+	color: blue;
+	font-size: 15px;
+}
+
+.center_a_1:hover{
+	color: #6600cc;
+}
+
+.center_img{
+	width: 9px;
+	height: 12px;
+	margin-right: 8px;
+}
+/*A-progect*/
+
+/*B-progect*/
+.b_prgect{
+	width: 298px;
+	height: 585px;
+	background-color: darkgray;
+	margin-top: 130px;
+	margin-left: -120px;
+	background-image: url(../img/telefon_rasmi.jpg);
+	background-repeat: no-repeat;
+}
+
+.b_prgect_b_1_text_idish{
+	width: 295px;
+	height: 70px;
+	background-color: #4747d1;
+	border-radius: 10px;
+	padding: 15px;
+	display: flex;
+	margin-top: 40px;
+	margin-left: -80px;
+}
+
+.b_1_text{
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+	margin-top: 8px;
+}
+
+.b_prgect_b_2_text_idish{
+	width: 295px;
+	height: 70px;
+	background-color: #ffe066;
+	border-radius: 10px;
+	padding: 18px;
+	display: flex;
+	margin-top: 290px;
+	margin-left: 160px;
+}
+
+.b_2_text{
+	width: 250px;
+	color: black;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin-top: 2px;
+	margin-left: 15px;
+}
+
+.ilmoqcha_sariq_rasm{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin: 0;
+}
+
+.c_progect{
+	display: flex;
+	margin-top: 140px;
+}
+
+.c_1_text{
+	width: 400px;
+	color: #4d4d4d; 
+	margin-left: 120px;
+}
+
+.c_1_chiziq{
+	width: 900px;
+	height: 1px;
+	background-color:  #dcdbd6;
+	margin-top: 10px;
+}
+
+.d_progect_emblima{
+	width: 1100px;
+	height: 50px;
+	display: flex;
+	margin-top: 20px;
+}
+
+.emblame{
+	width: 150px;
+	height: 50px;
+	margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url('./fonts/CircularStd-Bold.woff2') format('woff2'),
+        url('./fonts/CircularStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+*/
+
+ * {
+ 	margin: 0 auto;
+	padding: 0 auto;
+	list-style-type: none;
+	box-sizing: border-box;
+ }
+
+body {
+	font-family: 'Circular Std'; 
+	justify-content: center;
+	align-items: center;
+}
+
+.umumiy_chegara {
+	width: 1350px;
+	height: 4000px;
+	margin: 0 auto;
+	padding: 0 auto;
+	border: 3px solid blue;
+	background-image: url(../img/1-fon.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+/*menu*/
+
+.menu{
+	display: flex;
+	padding: 20px;
+	padding-top: 25px;
+	justify-content: space-between;
+	font-family: sans-serif;
+	position: relative;
+
+}
+
+.logotip{
+	margin-left: 10px;
+	
+	font-size: 20px;
+}
+
+.menu_link{
+	margin-left: 700px;
+}
+
+.menu_ul{
+	display: flex;
+	margin-right: -5px;
+
+}
+
+.menu_li{
+	margin-left: 10px;
+}
+
+.menu_a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	margin-right: 20px;
+	padding-bottom: 15px;
+}
+
+.menu_a:hover {
+	color: blue;
+}
+
+.rasm_uchburchakcha {
+	width: 10px;
+	height: 7px;
+	margin-left: 6px;
+}
+
+.ichki_menu{
+	display: none;
+	width: 213px;
+	height: 180px;	
+	border: 1px solid #CBCBCB;
+	border-top: 4px solid blue;
+	position: absolute;
+	margin-top: 12px;
+	border-radius: 0% 0% 6% 6% / 0% 0% 6% 6% ;
+	background-color: white;
+}
+
+.ichki_menu_li{
+	margin-top: 20px;
+	margin-left: -20px;
+	position: relative;
+}
+
+.ichki_menu_li2{
+	margin-top: 20px;
+	margin-left: -45px;
+	padding-left: 26px;
+	position: relative;
+}
+
+.rasm_uchburchak_ichki{
+	width: 8px;
+	height: 10px;
+	margin-left: 50px;
+}
+
+.ichki_menu_a{
+	border-radius: 1px solid black;
+	text-decoration: none;
+	color: black;
+}
+
+
+.ichki_menu_a:hover {
+	color: blue;
+}
+
+.menu ul li:hover .ichki_menu {
+	display: block;
+}
+
+.ichki_menu2{
+	display: none;
+	width: 213px;
+	height: 180px;	
+	border: 1px solid #CBCBCB;
+	border-top: 4px solid red;
+	position: absolute;
+	margin-top: -22px;
+	margin-left: -234px;
+	border-radius: 0% 0% 6% 6% / 0% 0% 6% 6% ;
+	background-color: white;
+}
+
+.ichki_menu ul .ichki_menu_li2:hover .ichki_menu2 {
+	display: block;
+}
+
+.button1{
+	width: 130px;
+	height: 38px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: 1px solid #ee5252;
+	background-color: #ee2f2f;
+	color: white;
+	margin-top: -10px;
+	margin-left: 10px;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.button1:hover{
+	background-color: #d34444;
+}
+
+/*MENU*/
+.qism_1{
+	display: flex;
+}
+/*A-progect*/
+.a_prgect{
+	width: 500px;
+	height: 500px;
+/*	background-color: darkgray;*/
+	margin-left:140px;
+	margin-top: 150px; 
+	padding: 0;
+}
+
+.a_1_text{
+	font-size: 65px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.a_2_text{
+		font-size: 18px;
+	font-family: sans-serif;
+	margin-bottom: 15px;
+/*	font-weight: lighter;*/
+	color: #4d4d4d; 
+}
+
+.button_2{
+	width: 175px;
+	height: 55px;
+	padding: 8px 22px;
+	border-radius: 5px;
+	border: 1px solid #ee5252;
+	background-color: #e13737;
+	color: white;
+	margin-top: 20px;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.button_2:hover{
+	background-color: #d34444;
+}
+
+.center_a_1{
+	text-decoration: none;
+	color: blue;
+	font-size: 15px;
+}
+
+.center_a_1:hover{
+	color: #6600cc;
+}
+
+.center_img{
+	width: 9px;
+	height: 12px;
+	margin-right: 8px;
+}
+/*A-progect*/
+
+/*B-progect*/
+.b_prgect{
+	width: 298px;
+	height: 585px;
+	background-color: darkgray;
+	margin-top: 130px;
+	margin-left: -120px;
+	background-image: url(../img/telefon_rasmi.jpg);
+	background-repeat: no-repeat;
+}
+
+.b_prgect_b_1_text_idish{
+	width: 295px;
+	height: 70px;
+	background-color: #4747d1;
+	border-radius: 10px;
+	padding: 15px;
+	display: flex;
+	margin-top: 40px;
+	margin-left: -80px;
+}
+
+.b_1_text{
+	color: white;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin-top: 10px;
+}
+
+.b_prgect_b_2_text_idish{
+	width: 295px;
+	height: 70px;
+	background-color: #ffe066;
+	border-radius: 10px;
+	padding: 18px;
+	display: flex;
+	margin-top: 290px;
+	margin-left: 160px;
+}
+
+.b_2_text{
+	width: 250px;
+	color: black;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin-top: 2px;
+	margin-left: 15px;
+}
+
+.ilmoqcha_sariq_rasm{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin: 0;
+}
+
+.c_progect{
+	display: flex;
+	margin-top: 140px;
+}
+
+.c_1_text{
+	width: 400px;
+	color: #4d4d4d; 
+	margin-left: 120px;
+}
+
+.c_1_chiziq{
+	width: 900px;
+	height: 1px;
+	background-color:  #dcdbd6;
+	margin-top: 10px;
+}
+
+.d_progect_emblima{
+	width: 1100px;
+	height: 50px;
+	display: flex;
+	margin-top: 30px;
+}
+
+.emblame{
+	width: 150px;
+	height: 50px;
+	margin-left: 50px;
+}
+/*B-progect*/
+
+/*D-progect*/
+.qism_2{
+	width: 1366px;
+	height: 740px;
+	background-color: #505fd3;
+	margin-top: 35px;
+	display: flex;
+	margin-left: -2px;
+	border-radius: 0% 0% 100% 0% / 0% 0% 13% 0% ;
+	overflow: hidden;
+}
+
+.aylana_shar{
+	width: 550px;
+	height: 350px;
+	border-radius: 50%;
+	background-color: gold;
+	margin-top: -800px;
+	margin-left: 280px;
+}
+
+.katta_turtburchak{
+	width: 480px;
+	height: 530px;
+/*	background-color: pink;*/
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 95px;
+	margin-left: 170px;
+}
+
+.kichik_turtburchak{
+	width: 210px;
+	height: 240px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 22px;
+}
+
+.kichik_turtburchak:hover{
+	width: 213px;
+	height: 243px;
+	box-shadow: 0px 15px 90px 1px black;
+}
+
+.turtburchak_img{
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.turtburchak_katta_text{
+	font-size: 19px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.turtburchak_mayda_text{
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-bottom: 12px;
+	color:  #808080;
+}
+
+.right_text{
+	width: 475px;
+	height: 400px;
+/*	background-color: white;*/
+	margin: 0;
+	margin-top: 180px;
+	margin-left: 50px;
+}
+
+.katta_text{
+	font-size: 45px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 38px;
+}
+
+.bottom_text{
+	font-size: 17px;
+	font-family: sans-serif;
+/*	font-weight: bold;*/
+	color: #ccccff;
+	margin-bottom: 18px;
+}
+
+.button3{
+	width: 200px;
+	height: 60px;
+	border-radius: 6px;
+	border: 2px solid #ccccff;
+	background-color: #505fd3;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	font-size: 17px;
+	margin-top: 30px;
+}
+/*D-progect*/
+
+/*E-progect*/
+.qism_3{
+	width: 1366px;
+	height: 740px;
+	margin: 0 auto;	
+	display: flex;
+}
+
+.left_text{
+	width: 468px;	
+	height: 350px;	
+	margin: 0;
+	margin-top: 200px;
+	margin-left: 145px;
+}
+
+.katta_tetx_2{
+	font-size: 48px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 28px;
+/*	margin-bottom: 38px;*/
+}
+
+.bottom_text_2{
+	font-size: 18px;
+	font-family: sans-serif;
+/*	font-weight: bold;*/
+	color: gray;
+	margin-bottom: 18px;
+}
+
+.right_img{
+	width: 400px;
+	height: 600px;
+	background-image: url(../img/odam_rasm_1.jpg);
+	background-repeat: no-repeat;
+	margin: 0;
+	margin-top: 85px;
+	margin-left: 160px;
+}
+
+/*.border_1{
+	width: 400px;
+	height: 550px;
+}
+*/
+
+.sariq_idish{
+	width: 320px;
+	height: 105px;
+	background-color: #ffe066;
+	border-radius: 10px;
+	margin-top: 320px;
+	margin-left: -113px;
+	display: flex;
+}
+
+.qungiroq_rasm{
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.text_div{
+	margin-left: 12px;
+}
+
+.top_text{
+	font-size: 15px;
+	font-family: sans-serif;
+	color: gray;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.bottom_text4{
+	width: 290px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+/*	margin-top: 20px;*/
+	font-weight: bold;
+	margin-left: 
+}
+
+
+
+
+
+
+
+
+
+
+
+
